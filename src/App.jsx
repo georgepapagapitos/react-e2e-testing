@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 export default function App() {
-  const [authenticated, setAuthenticated] = useState(true);
+  const [authenticated, setAuthenticated] = useState(false);
   const [todoInput, setTodoInput] = useState("");
   const [todos, setTodos] = useState([]);
 
